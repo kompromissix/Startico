@@ -1,0 +1,388 @@
+main{
+    .background1{
+        width: 100%;
+        height: 633px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url(./Main_assets/Frame2.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        >div{
+            width: 768px;
+            height: 433px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+            h1{
+                font-size: 56px;
+                color: white;
+                width: 695px;
+            }
+            h3{
+                font-size: 20px;
+                color: white;
+                width: 713px;
+                font-family: "Space Grotesk", sans-serif;
+            }
+            >div:nth-child(3){
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                width: 281px;
+                height: 52px;
+                font-family: "Space Grotesk", sans-serif;
+                >button:nth-child(1){
+                    width: 139px;
+                    height: 52px;
+                    background-color: #DDF0A7;
+                    border-radius: 64px;
+                    border: 2px solid #DDF0A7;
+                    font-size: 15px;
+                    font-weight: 600;
+                }
+                >button:nth-child(2){
+                    display: flex;
+                    justify-content: space-between;
+                    width: 110px;
+                    background: none;
+                    border: none;
+                    font-size: 15px;
+                    font-weight: 600;
+                    color: white;
+                }
+            }
+            >div:nth-child(4){
+                width: 634px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+        }
+    }
+    .background2{
+        width: 100%;
+        height: 640px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        >div:nth-child(1){
+            width: 100%;
+            height: 640px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            >div:nth-child(1){
+                width: 100%;
+                height: 320px;
+                background-color: #162E3C;
+            }
+            >div:nth-child(2){
+                width: 100%;
+                height: 320px;
+                background-color: white;
+            }
+        }
+        >div:nth-child(2){
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 640px;
+            position: absolute;
+            >div{
+                width: 1280px;
+                height: 640px;
+                background-image: url(./Main_assets/woman.png);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                >div{
+                    width: 233px;
+                    height: 52px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: #DDF0A7;
+                    font-family: "Space Grotesk", sans-serif;
+                    font-size: 15px;
+                    font-weight: 600;
+                    border-radius: 64px;
+                }
+            }
+        }
+    }
+    .background3{
+        width: 100%;
+        height: 856px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        >div{
+            width: 1280px;
+            height: 600px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            >div{
+                width: 600px;
+                height: 304px;
+                display: flex;
+                justify-content: space-between;
+                align-items: start;
+                flex-direction: column;
+                >div:nth-child(1){
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 72px;
+                    height: 32px;
+                    background-color: #DDF0A7;
+                    font-family: "Space Grotesk", sans-serif;
+                    border-radius: 64px;
+                    font-weight: 600;
+                }
+                h2{
+                    font-size: 40px;
+                    font-weight: 500;
+                }
+                >p{
+                    font-size: 18px;
+                    font-weight: 500;
+                    font-family: "Space Grotesk", sans-serif;
+                    color: #49616E;
+                }
+                >div:nth-child(4){
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    width: 281px;
+                    height: 52px;
+                    font-family: "Space Grotesk", sans-serif;
+                    >button:nth-child(1){
+                        width: 139px;
+                        height: 52px;
+                        background: none;
+                        border-radius: 64px;
+                        border: 2px solid #162E3C;
+                        font-size: 15px;
+                        font-weight: 600;
+                    }
+                    >button:nth-child(2){
+                        display: flex;
+                        justify-content: space-between;
+                        width: 110px;
+                        background: none;
+                        border: none;
+                        font-size: 15px;
+                        font-weight: 600;
+                    }
+                }
+            }
+        }
+    }
+    .background4{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 898px;
+        >div{
+            width: 1280px;
+            height: 898px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #DDF0A7;
+            border-radius: 48px;
+            >div{
+                width: 1152px;
+                height: 642px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                flex-direction: column;
+                h2{
+                    font-size: 40px;
+                    font-weight: 500;
+                    width: 704px;
+                    text-align: center;
+                }
+                >p{
+                    font-size: 18px;
+                    font-weight: 500px;
+                    color: #162E3C;
+                    font-family: "Space Grotesk", sans-serif;
+                    text-align: center;
+                    width: 744px;
+                }
+                >div:nth-child(3){
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    width: 100%;
+                    height: 304px;
+                    >div{
+                        background-color: #162E3C;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 363px;
+                        height: 304px;
+                        text-align: center;
+                        color: white;
+                        border-radius: 24px;
+                        >div{
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            flex-direction: column;
+                            width: 255px;
+                            height: 241px;
+                            >p{
+                                font-size: 15px;
+                                font-weight: 500;
+                                font-family: "Space Grotesk", sans-serif;
+                            }
+                            >h3{
+                                font-size: 20px;
+                                font-weight: 500;
+                            }
+                        }
+                    }
+                }
+                >div:nth-child(4){
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    width: 281px;
+                    height: 52px;
+                    font-family: "Space Grotesk", sans-serif;
+                    >button:nth-child(1){
+                        width: 139px;
+                        height: 52px;
+                        background: none;
+                        border-radius: 64px;
+                        border: 2px solid #162E3C;
+                        font-size: 15px;
+                        font-weight: 600;
+                    }
+                    >button:nth-child(2){
+                        display: flex;
+                        justify-content: space-between;
+                        width: 110px;
+                        background: none;
+                        border: none;
+                        font-size: 15px;
+                        font-weight: 600;
+                    }
+                }
+            }
+        }
+    }
+    .background5{
+        width: 100%;
+        height: 856px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        >div{
+            width: 1280px;
+            height: 600px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            >div{
+                width: 600px;
+                height: 486px;
+                display: flex;
+                justify-content: space-between;
+                align-items: start;
+                flex-direction: column;
+                >div:nth-child(1){
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 88px;
+                    height: 32px;
+                    background-color: #DDF0A7;
+                    font-family: "Space Grotesk", sans-serif;
+                    border-radius: 64px;
+                    font-weight: 600;
+                }
+                h2{
+                    font-size: 40px;
+                    font-weight: 500;
+                }
+                >p{
+                    font-size: 18px;
+                    font-weight: 500;
+                    font-family: "Space Grotesk", sans-serif;
+                    color: #49616E;
+                }
+                >div:nth-child(4){
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    width: 600px;
+                    height: 204px;
+                    >div{
+                        width: 288px;
+                        height: 188px;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: start;
+                        flex-direction: column;
+                        >div{
+                            width: 56px;
+                            height: 56px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            border-radius: 16px;
+                            background-color: #DDF0A7;
+                        }
+                        h3{
+                            font-size: 20px;
+                            font-weight: 500;
+                        }
+                        p{
+                            color: #49616E;
+                            font-size: 16px;
+                            font-family: "Space Grotesk", sans-serif;
+                        }
+                    }
+                }
+                >div:nth-child(5){
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    width: 281px;
+                    height: 52px;
+                    font-family: "Space Grotesk", sans-serif;
+                    >button:nth-child(1){
+                        width: 139px;
+                        height: 52px;
+                        background: none;
+                        border-radius: 64px;
+                        border: 2px solid #162E3C;
+                        font-size: 15px;
+                        font-weight: 600;
+                    }
+                    >button:nth-child(2){
+                        display: flex;
+                        justify-content: space-between;
+                        width: 110px;
+                        background: none;
+                        border: none;
+                        font-size: 15px;
+                        font-weight: 600;
+                    }
+                }
+            }
+        }
+    }
+}
