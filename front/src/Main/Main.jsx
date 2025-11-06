@@ -11,6 +11,13 @@ import icon2 from './Main_assets/icon2.png'
 import icon3 from './Main_assets/icon3.png'
 import image1 from './Main_assets/image1.png'
 import image2 from './Main_assets/image2.png'
+import left from './Main_assets/left.png'
+import mid from './Main_assets/mid.png'
+import right from './Main_assets/right.png'
+import pay from './Main_assets/pay.png'
+import strelochki from './Main_assets/strelochki.png'
+import paygreen from './Main_assets/paygreen.png'
+
 
 
 export default function Main(){
@@ -157,10 +164,12 @@ export default function Main(){
                 <section className='background6'>
                     <div>
                         <div>
-                            <p>Pricing</p>
+                            <div>
+                                <p>Pricing</p>
+                            </div>
+                            <h2>Pricing plans</h2>
+                            <p>Suspendisse mattis porttitor gravida et malesuada fames.</p>
                         </div>
-                        <h2>Pricing plans</h2>
-                        <p>Suspendisse mattis porttitor gravida et malesuada fames.</p>
                         <div>
                             <div>
                                 <div>
@@ -169,19 +178,19 @@ export default function Main(){
                                             <div>
                                                 <img src={pay} alt="" />
                                             </div>
-                                        </div>
-                                        <div>
-                                            <p></p>
-                                            <h3><span></span></h3>
-                                            <p></p>
+                                            <div>
+                                                <p>Basic plan</p>
+                                                <h3><span>$19</span>/mo</h3>
+                                                <h4>or $199 yearly</h4>
+                                            </div>
                                         </div>
                                         <hr />
                                         <div>
-                                            <p></p>
+                                            <p>Includes:</p>
                                             <ul>
-                                                <li></li>
-                                                <li></li>
-                                                <li></li>
+                                                <li>Vestibulum posuere odio</li>
+                                                <li>Id purus maximus condimentum</li>
+                                                <li>Vel convallis nibh duis</li>
                                             </ul>
                                         </div>
                                     </div>
@@ -189,26 +198,28 @@ export default function Main(){
                                         <p>Get started</p>
                                     </button>
                                 </div>
+                            </div>
+                            <div>
                                 <div>
                                     <div>
                                         <div>
                                             <div>
-                                                <img src={pay} alt="" />
+                                                <img src={paygreen} alt="" />
                                             </div>
-                                        </div>
-                                        <div>
-                                            <p></p>
-                                            <h3><span></span></h3>
-                                            <p></p>
+                                            <div>
+                                                <p>Business plan</p>
+                                                <h3><span>$29</span>/mo</h3>
+                                                <h4>or $299 yearly</h4>
+                                            </div>
                                         </div>
                                         <hr />
                                         <div>
-                                            <p></p>
+                                            <p>Includes:</p>
                                             <ul>
-                                                <li></li>
-                                                <li></li>
-                                                <li></li>
-                                                <li></li>
+                                                <li>Maximus condimentum turpis</li>
+                                                <li>Nullam faucibus dictum accumsan</li>
+                                                <li>Vivamus ante dolor</li>
+                                                <li>Purus in convallis pharetra</li>
                                             </ul>
                                         </div>
                                     </div>
@@ -216,27 +227,29 @@ export default function Main(){
                                         <p>Get started</p>
                                     </button>
                                 </div>
+                            </div>
+                            <div>
                                 <div>
                                     <div>
                                         <div>
                                             <div>
                                                 <img src={pay} alt="" />
                                             </div>
-                                        </div>
-                                        <div>
-                                            <p></p>
-                                            <h3><span></span></h3>
-                                            <p></p>
+                                            <div>
+                                                <p>Enterprise plan</p>
+                                                <h3><span>$49</span>/mo</h3>
+                                                <h4>or $499 yearly</h4>
+                                            </div>
                                         </div>
                                         <hr />
                                         <div>
-                                            <p></p>
+                                            <p>Includes:</p>
                                             <ul>
-                                                <li></li>
-                                                <li></li>
-                                                <li></li>
-                                                <li></li>
-                                                <li></li>
+                                                <li>Phasellus finibus lectus</li>
+                                                <li>At blandit mollis maecenas</li>
+                                                <li>Nec ultrices lectus eune</li>
+                                                <li>Mattis facilisis lacus aliquet</li>
+                                                <li>Am condimentum cursus</li>
                                             </ul>
                                         </div>
                                     </div>
@@ -251,54 +264,62 @@ export default function Main(){
                 <section className='background7'>
                     <div>
                         <div>
-                            <p>Blog</p>
+                            <div>
+                                <p>Blog</p>
+                            </div>
+                            <h2>Our latest blogs</h2>
+                            <p>Accumsan semper euismod dolor vitae metus.</p>
                         </div>
-                        <h2>Our latest blogs</h2>
-                        <p>Accumsan semper euismod dolor vitae metus.</p>
                         <div>
                             <div>
-                                <img src={} alt="" />
+                                <img src={left} alt="" />
                                 <div>
                                     <div>
-                                        <p></p>
+                                        <div>
+                                            <p>Business</p>
+                                        </div>
+                                        <p>7 min read</p>
                                     </div>
-                                    <p></p>
-                                </div>
-                                <h2></h2>
-                                <p></p>
-                                <div>
-                                    <img src={strelka} alt="" />
-                                    <p>Read more</p>
+                                    <h2>Top 10 mistakes startaps in 2022 make and how to avoid them</h2>
+                                    <p>Ipsum nostrum nihil. Veniam sit eius sed non accusamus ut officiis. Eligendi impedit rerum et beatae itaque corrupti. Sed nesciunt delectus sequi harum d</p>
+                                    <div>
+                                        <img src={strelochki} alt="" />
+                                        <p>Read more</p>
+                                    </div>
                                 </div>
                             </div>
                             <div>
-                                <img src={} alt="" />
+                                <img src={mid} alt="" />
                                 <div>
                                     <div>
-                                        <p></p>
+                                        <div>
+                                            <p>Business</p>
+                                        </div>
+                                        <p>11 min read</p>
                                     </div>
-                                    <p></p>
-                                </div>
-                                <h2></h2>
-                                <p></p>
-                                <div>
-                                    <img src={strelka} alt="" />
-                                    <p>Read more</p>
+                                    <h2>How many participants for a new hire interview</h2>
+                                    <p>Et ad placeat quo rerum earum. Est est ea perspiciatis facere voluptas qui sit exercitationem autem. Qui maxime pariatur nobis est et culpa itaque consequatur.</p>
+                                    <div>
+                                        <img src={strelochki} alt="" />
+                                        <p>Read more</p>
+                                    </div>
                                 </div>
                             </div>
                             <div>
-                                <img src={} alt="" />
+                                <img src={right} alt="" />
                                 <div>
                                     <div>
-                                        <p></p>
+                                        <div>
+                                            <p>Tools</p>
+                                        </div>
+                                        <p>5 min read</p>
                                     </div>
-                                    <p></p>
-                                </div>
-                                <h2></h2>
-                                <p></p>
-                                <div>
-                                    <img src={strelka} alt="" />
-                                    <p>Read more</p>
+                                    <h2>Two business tools that have made my job way easier</h2>
+                                    <p>Est est ea perspiciatis facere voluptas qui sit exercitationem autem. Et ad placeat quo rerum earum. Qui maxime pariatur nobis est et culpa itaque consequatur.</p>
+                                    <div>
+                                        <img src={strelochki} alt="" />
+                                        <p>Read more</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
