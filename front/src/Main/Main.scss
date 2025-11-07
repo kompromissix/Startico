@@ -94,9 +94,12 @@ main{
             height: 640px;
             position: absolute;
             >div{
-                width: 1280px;
+                width: 1800px;
                 height: 640px;
                 background-image: url(./Main_assets/woman.png);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
                 display: flex;
                 justify-content: center;
                 align-items: center;
