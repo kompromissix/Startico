@@ -17,7 +17,8 @@ import right from './Main_assets/right.png'
 import pay from './Main_assets/pay.png'
 import strelochki from './Main_assets/strelochki.png'
 import paygreen from './Main_assets/paygreen.png'
-
+import cirb from './Main_assets/cirb.png'
+import cir from './Main_assets/cir.png'
 
 
 export default function Main(){
@@ -187,11 +188,20 @@ export default function Main(){
                                         <hr />
                                         <div>
                                             <p>Includes:</p>
-                                            <ul>
-                                                <li>Vestibulum posuere odio</li>
-                                                <li>Id purus maximus condimentum</li>
-                                                <li>Vel convallis nibh duis</li>
-                                            </ul>
+                                            <div>
+                                                <div>
+                                                    <img src={cir} alt="" />
+                                                    <p>Vestibulum posuere odio</p>
+                                                </div>
+                                                <div>
+                                                    <img src={cir} alt="" />
+                                                    <p>Id purus maximus condimentum</p>
+                                                </div>
+                                                <div>
+                                                    <img src={cir} alt="" />
+                                                    <p>Vel convallis nibh duis</p>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                     <button type="button">
@@ -215,12 +225,24 @@ export default function Main(){
                                         <hr />
                                         <div>
                                             <p>Includes:</p>
-                                            <ul>
-                                                <li>Maximus condimentum turpis</li>
-                                                <li>Nullam faucibus dictum accumsan</li>
-                                                <li>Vivamus ante dolor</li>
-                                                <li>Purus in convallis pharetra</li>
-                                            </ul>
+                                            <div>
+                                                <div>
+                                                    <img src={cirb} alt="" />
+                                                    <p>Maximus condimentum turpis</p>
+                                                </div>
+                                                <div>
+                                                    <img src={cirb} alt="" />
+                                                    <p>Nullam faucibus dictum accumsan</p>
+                                                </div>
+                                                <div>
+                                                    <img src={cirb} alt="" />
+                                                    <p>Vivamus ante dolor</p>
+                                                </div>
+                                                <div>
+                                                    <img src={cirb} alt="" />
+                                                    <p>Purus in convallis pharetra</p>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                     <button type="button">
@@ -244,13 +266,28 @@ export default function Main(){
                                         <hr />
                                         <div>
                                             <p>Includes:</p>
-                                            <ul>
-                                                <li>Phasellus finibus lectus</li>
-                                                <li>At blandit mollis maecenas</li>
-                                                <li>Nec ultrices lectus eune</li>
-                                                <li>Mattis facilisis lacus aliquet</li>
-                                                <li>Am condimentum cursus</li>
-                                            </ul>
+                                            <div>
+                                                <div>
+                                                    <img src={cir} alt="" />
+                                                    <p>Phasellus finibus lectus</p>
+                                                </div>
+                                                <div>
+                                                    <img src={cir} alt="" />
+                                                    <p>At blandit mollis maecenas</p>
+                                                </div>
+                                                <div>
+                                                    <img src={cir} alt="" />
+                                                    <p>Nec ultrices lectus eune</p>
+                                                </div>
+                                                <div>
+                                                    <img src={cir} alt="" />
+                                                    <p>Mattis facilisis lacus aliquet</p>
+                                                </div>
+                                                <div>
+                                                    <img src={cir} alt="" />
+                                                    <p>Am condimentum cursus</p>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                     <button type="button">
@@ -321,6 +358,32 @@ export default function Main(){
                                         <p>Read more</p>
                                     </div>
                                 </div>
+                            </div>
+                        </div>
+                        <div>
+                            <p></p>
+                        </div>
+                    </div>
+                </section>
+                <section className='background8'>
+                    <div>
+                        <div>
+                            
+                        </div>
+                        <div>
+        
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <h2>Stay up to date with the latest news from the Startup world!</h2>
+                            <p>Etiam volutpat ligula nec orci egestas, at porta massa tempor. Proin rutrum, purus in convallis pharetra, risus leo sagittis.</p>
+                            <div>
+                                <div>
+                                    <input type="text" placeholder='Enter your email'/>
+                                    <button type="button">Subscribe</button>
+                                </div>
+                                <p>By clicking Subscribe you're confirming that you agree with our Terms and Conditions.</p>
                             </div>
                         </div>
                     </div>

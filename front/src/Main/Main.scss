@@ -474,11 +474,23 @@ main{
                                 }
                             }
                             hr{
-                                padding-top: 32px;
+                                margin-top: 32px;
+                                
                             }
                             >div:nth-child(3){
                                 padding-top: 32px;
-                                
+                                font-family: "Space Grotesk", sans-serif;
+                                font-size: 15px;
+                                >div{
+                                    padding-top: 16px;
+                                    >div{
+                                        display: flex;
+                                        padding-top: 16px;
+                                        >p{
+                                            padding-left: 16px;
+                                        }
+                                    }
+                                }
                             }
                         }
                         >button{
@@ -516,18 +528,61 @@ main{
                         }
                     }
                 }
+                >div:nth-child(2){
+                    height: 732px;
+                    background-color: #DDF0A7;
+                    >div{
+                        height: 668px;
+                        >div{
+                            height: 616px;
+                            color: black;
+                            >div:nth-child(3){
+                                height: 336px;
+                            }
+                        }
+                        hr{
+                            border: 1px solid #D1E39E;
+                        }
+                        >button{
+                            background-color: #162E3C;
+                            color: white;
+                            
+                        }
+                    }
+                }
+                >div:nth-child(3){
+                    height: 668px;
+                    background-color: #162E3C;
+                    >div{
+                        height: 604px;
+                        >div{
+                            height: 552px;
+                            color: white;
+                            >div:nth-child(3){
+                                height: 272px;
+                            }
+                        }
+                        hr{
+                            border: 1px solid #223E4E;
+                        }
+                        >button{
+                            background-color: #DDF0A7;
+                            
+                        }
+                    }
+                }
             }
         }
     }
     .background7{
         width: 100%;
-        height: 1000px;
+        height: 1288px;
         display: flex;
         justify-content: center;
         align-items: center;
         >div{
             width: 1280px;
-            height: 900px;
+            height: 1032px;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
@@ -617,6 +672,107 @@ main{
                             width: 121px;
                             height: 32px;
                             font-family: "Space Grotesk", sans-serif;
+                        }
+                    }
+                }
+            }
+            div:nth-child(3){
+                width: 109px;
+                height: 52px;
+                border-radius: 64px;
+                border: 2px solid #162E3C;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-family: "Space Grotesk", sans-serif;
+                font-weight: 600;
+            }
+        }
+    }
+    .background8{
+        width: 100%;
+        height: 484px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        >div:nth-child(1){
+            width: 100%;
+            height: 484px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            >div:nth-child(1){
+                width: 100%;
+                height: 242px;
+                background-color: white;
+            }
+            >div:nth-child(2){
+                width: 100%;
+                height: 242px;
+                background-color: #162E3C;
+            }
+        }
+        >div:nth-child(2){
+            width: 1280px;
+            background-image: url(./Main_assets/backr.png);
+            height: 484px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            >div{
+                width: 768px;
+                height: 292px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                flex-direction: column;
+                text-align: center;
+                >h2{
+                    font-size: 40px;
+                    font-weight: 500;
+                    width: 640px;
+                }
+                >p{
+                    font-size: 18px;
+                    font-family: "Space Grotesk", sans-serif;
+                }
+                >div{
+                    width: 512px;
+                    height: 89px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    align-items: center;
+                    >p{
+                        font-size: 11px;
+                        font-family: "Space Grotesk", sans-serif;
+                        color: #162E3C;
+                    }
+                    >div{
+                        width: 512px;
+                        height: 52px;
+                        display: flex;
+                        justify-content: space-between;
+                        >input{
+                            height: 52px;
+                            width: 326px;
+                            padding-left: 42px;
+                            font-family: "Space Grotesk", sans-serif;
+                            font-size: 18px;
+                            font-weight: 600;
+                            border-radius: 24px;
+                            border: none;
+                        }
+                        >button{
+                            width: 128px;
+                            height: 52px;
+                            border: none;
+                            border-radius: 64px;
+                            background-color: #162E3C;
+                            color: white;
+                            font-family: "Space Grotesk", sans-serif;
+                            font-size: 18px;
                         }
                     }
                 }
